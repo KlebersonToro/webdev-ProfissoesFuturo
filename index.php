@@ -1,3 +1,3 @@
 <?php 
-    include 'dist/index.html'
+    header('Location: '. '/dist/index.html');
 ?>
