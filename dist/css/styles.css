@@ -11017,6 +11017,11 @@ blockquote {
   color: #6c757d;
 }
 
+.teamImage {
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+}
+
 .btn {
   letter-spacing: 0.0625em;
 }

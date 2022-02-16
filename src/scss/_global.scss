@@ -1,25 +1,20 @@
 // 
 // Global theme styling
 // 
-
 // Increase base font styling in the body only
-
 body {
     font-size: $font-size-lg;
 }
 
 // Set horizontal rule color to border color
-
 hr {
     background-color: $border-color;
     opacity: 1;
 }
 
 // Set defaults for the paragraph element
-
 p {
     margin: 2rem 0;
-
     a {
         text-decoration: underline;
     }
@@ -28,4 +23,8 @@ p {
 blockquote {
     font-style: italic;
     color: $gray-600;
+}
+
+.teamImage {
+    clip-path: circle(50% at 50% 50%);
 }
